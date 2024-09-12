@@ -1,9 +1,9 @@
 /* código omitido */
 
-body {
-    background-color: #1D4221;
-    color: white;
-    font-family: "Bai Jamjuree", sans-serif;
+body{
+    background-color: aquamarine;
+    color: black;
+    font-family:"Roboto Condensed", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,12 +12,19 @@ body {
 }
 
 button {
-    background-color: #64A712;
+    background-color: green;
     color: white;
-    font-family: "Bai Jamjuree", sans-serif;
+    font-family:"Roboto Condensed", sans-serif;
 }
+    
+
+.passo {
+    display: none;
+}
+
 .passo.ativo {
-    display:block;
+display:block;
+
 }
 main {
     text-align: center;
